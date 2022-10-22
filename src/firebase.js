@@ -25,6 +25,3 @@ const firebaseConfig = {
   
   export const modular_storage=getStorage(modular_firebase_app)
   export { auth, provider, storage, db,firebase };
-
-// client_id = 543827396101-9mno4ivdenp6o0n4h5838dalmupgat5n.apps.googleusercontent.com
-// client_secret = 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
