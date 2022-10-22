@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from "./components/Main/Main";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import View from './components/Editor/View';
+import "./App.css"
+import { NextUIProvider } from '@nextui-org/react';
+import ViewFromFolder from "./components/Editor/ViewFromFolder";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <NextUIProvider>
+      <div className="app">
+        {
+          <Router>
+            <Switch>
+              <Route exact path="/" component={Main} />
+              <Route exact path="/page/:id" component={View} />
+              <Route exact path="/folder/:folderid/:pageid" component={ViewFromFolder} />
+
+            </Switch>
+          </Router>
+        }
+      </div>
+    </NextUIProvider>
+
+  )
 }
 
-export default App;
+export default App

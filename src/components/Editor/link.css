@@ -1,0 +1,79 @@
+.link-container{
+    position: relative;
+    z-index: 100;
+    width: 60%;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.link-container::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    z-index: -100;
+    border-radius: 12px;
+}
+
+.link-container input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    color: #0d1117;
+}
+
+.link-details{
+    position: relative;
+    display: flex;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border: 1px solid gainsboro;
+    text-decoration: none !important;
+    margin: 1.5rem 0;
+}
+
+.link-details::after{
+    
+}
+
+.left-details{
+    width: 60%;
+}
+
+.left-details h3{
+    font-size: 1rem;
+    color: #000000;
+}
+
+.left-details p{
+    font-size: 0.8rem;
+    color: black;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.left-details span{
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.right-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.right-details img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}

@@ -1,0 +1,37 @@
+.folder_modal p{
+    margin: 0;
+}
+
+.nextmodal{
+    float: right;
+    margin-right: 2rem;
+}
+
+.openfolder_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.openfolder_container_bottom{
+    background-color: #0d1117 !important;
+}
+
+.openfolder_container p{
+    font-size: 1rem;
+    margin: 0 0.5rem 0 0.3rem;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.openfolder_container span{
+    margin-top: 0.3rem;
+    font-size: 1rem;
+}
+
+.openfolder_input input{
+    background-color: pink !important;
+}

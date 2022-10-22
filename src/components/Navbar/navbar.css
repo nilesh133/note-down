@@ -1,0 +1,250 @@
+.navbar{
+    padding: 1rem 0.2rem 1rem 0.8rem;
+    width: 15%;
+    border-right: 2px solid rgba(171, 170, 170, 0.2);
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #010409;
+}
+
+.navbar_heading{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-family: 'Poppins', sans-serif !important;
+    color: #fff;
+}
+
+.navbar_heading span{
+    color: #1e90ff;
+}
+
+.navbar_files_folders_container{
+    overflow-y: scroll;
+    height: 95%;
+    padding-bottom: 2rem;
+    padding-right: 0.5rem;
+    width: 100%;
+}
+
+.navbar_files_folders_container::-webkit-scrollbar{
+    width: 15px;
+    background-color: #010409;
+    border-radius: 10px;
+}
+
+.navbar_files_folders_container::-webkit-scrollbar-thumb{
+    width: 15px;
+    background-color: #0d1117;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.7);
+}
+
+.navbar_files_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.navbar_files_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar_files_heading h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.navbar_files_heading_add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 32px;
+    height: 32px;
+    
+}
+
+.navbar_files_heading span{
+    margin-top: 0.4rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar_files{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    padding: 0 !important;
+}
+
+.navbar_folders{
+    margin-top: 1rem;
+    color: #fff;
+    margin-left: 0.8rem;
+}
+
+.navbar_folders::-webkit-scrollbar{
+    width: 7px;
+    background-color: #0d1117;
+    border-radius: 10px;
+}
+
+.navbar_files::-webkit-scrollbar{
+    width: 7px;
+    background-color: #0d1117;
+    border-radius: 10px;
+}
+
+.navbar_files a{
+    color: inherit;
+    font-size: 0.9rem;
+}
+
+.navbar_files_file_active{
+    display: flex;
+    align-items: center;
+    background-color: #1e90ff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.6rem;
+}
+
+.navbar_files_file_active span{
+    font-size: 1rem;
+}
+
+.navbar_files_file_notactive{
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.6rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.navbar_files_file_notactive span{
+    font-size: 1rem;
+}
+
+.navbar_list_container{
+    width: 100%;
+}
+
+.navbar_list_gs{
+    background-color: #f5f5f5;
+    padding: 0.3rem 0;
+    cursor: pointer;
+}
+
+.navbar_list_gs p{
+   margin: 0;
+}
+
+.navbar_list_gsh{
+    display: flex;
+    align-items: center;
+}
+
+.notes_lists{
+    display: block;
+}
+
+.notes_lists_hide{
+    display: none;
+}
+
+.notes_list{
+    display: flex;
+    align-items: center;
+    /* margin-left: 2rem; */
+}
+
+.notes_list p{
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+}
+
+.notes_list_fi{
+    font-size: 1.2rem;
+    padding-right: 0.3rem;
+    color: #979797;
+}
+
+.navbar_list{
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 0.3rem 0;
+}
+
+.navbar_list_fi{
+    font-size: 1.2rem;
+    padding-right: 0.3rem;
+    color: #979797;
+}
+
+.notes_list a{
+    text-decoration: none;
+}
+
+.navbar_list_gsi{
+    font-size: 1.2rem;
+    padding-right: 0.3rem;
+}
+
+.navbar_list p{
+    font-size: 0.9rem;
+    margin: 0;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.newDoc{
+    position: absolute !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.4rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    bottom: 4%;
+    box-sizing: border-box;
+    background-color: rgb(209, 208, 208);
+    width: 100%;
+    cursor: pointer;
+}
+
+.newFolder{
+    position: absolute;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    border-right: 2px solid #979797;
+}
+
+.newPage{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    text-align: center;
+}
+
+.newFolder_icon, .newFile_icon{
+    font-size: 1.6rem;
+}

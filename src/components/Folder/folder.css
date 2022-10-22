@@ -1,0 +1,140 @@
+.folderList{
+    width: 90%;
+}
+
+.folderList::-webkit-scrollbar{
+    width: 7px;
+    background-color: #0d1117;
+    border-radius: 10px;
+}
+
+.folderListOuter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.folderListLeft{
+    width: 85%;
+    display: flex;
+}
+
+.folderListRight{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.folderListRight span{
+    font-size: 1rem;
+    color: #fff;
+    margin-right: 0.8rem;
+    margin-top: 0.3rem;
+}
+
+.folderList .folderListLeftIcon{
+    font-size: 1.6rem;
+    padding-right: 0.5rem;
+}
+
+.folderList h4{
+    margin: 0;
+}
+
+.folderList input{
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif !important;
+    color: black;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+}
+
+.folderListInner{
+    padding: 0.3rem 0;
+    margin-left: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.folderListInner_hide{
+    display: none;
+}
+
+.folderListInner_pages{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 95%;
+    margin-left: 1.4rem;
+}
+
+.folderListInner_pages::-webkit-scrollbar{
+    width: 7px;
+    background-color: #0d1117;
+    border-radius: 10px;
+}
+
+.folderListInner_pages a{
+    color: inherit;
+    font-size: 0.9rem;
+}
+
+.folderListInner_page{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+.folderListInner_page span{
+    font-size: 1.5rem;
+}
+
+.folderListInner_newpage{
+    background-color: #0d1117;
+    color: #fff;
+    padding: 0.3rem 0.7rem;
+    text-align: center;
+    width: 70%;
+    margin-top: 0.3rem;
+}
+
+.folderListInner_newpage p{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 0.8rem;
+    letter-spacing: 0.6px;
+}
+
+.navbar_files_file_active{
+    display: flex;
+    align-items: center;
+    background-color: #1e90ff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.6rem;
+}
+
+.navbar_files_file_active span{
+    font-size: 1rem;
+}
+
+.navbar_files_file_notactive{
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.6rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.navbar_files_file_notactive span{
+    font-size: 1rem;
+}

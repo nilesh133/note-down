@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+.app{
+  background-color: #0d1117;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.codex-editor{
+  display: none !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.codex-editor:last-child{
+  display: block !important;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ce-block__content{
+  padding: 0 1rem !important;
+  padding-left: 4.5rem !important;
+  width: 100% !important;
+  color: #fff;
+  max-width: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+.ce-toolbar__actions{
+  left: 0% !important;
+  margin-left: 1rem;
+  color: #fff !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.emoji-picker-react{
+  width: 400px !important;
+  z-index: 100;
+}
+
+.ce-toolbar__content{
+  width: 100% !important;
+  max-width: 0 !important;
+  margin: 0;
+}
+
+.ce-toolbar__plus, .ce-toolbar__settings-btn{
+  color: #fff;
+}
+
+.ce-toolbar__plus:hover{
+  background-color: #1e90ff;
+}
+
+.ce-toolbar__settings-btn:hover{
+  background-color: #1e90ff;
+}
+
+.cdx-search-field{
+  background-color: #fff;
+  color: #0d1117;
+}
+
+.ce-popover{
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #0d1117;
+}
+
+.ce-popover__item:hover{
+  background-color: #1e90ff;
+}
+
+.ce-popover__item-icon{
+  background-color: #0d1117;
+}
+
+.cdx-list__item{
+  color: #fff;
+}
+
+.cdx-block{
+  width: 70%;
+}
+
+/* @tailwind utilities;
+
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600 underline;
+}
+
+@tailwind components;
+
+@tailwind base; */
+
+.app{
+  font-family: 'Poppins', sans-serif !important;
 }

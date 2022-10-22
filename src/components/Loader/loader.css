@@ -1,0 +1,47 @@
+.loader_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.loader_circle_1{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #1e90ff;
+    animation: loader_animation 0.7s linear infinite;
+    animation-delay: 0.1s;
+}
+
+.loader_circle_2{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #1e90ff;
+    animation: loader_animation 0.7s linear infinite;
+    animation-delay: 0.2s;
+}
+
+.loader_circle_3{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #1e90ff;
+    animation: loader_animation 0.7s linear infinite;
+    animation-delay: 0.3s;
+}
+
+@keyframes loader_animation {
+  0%{
+    transform: scale(1, 1);
+  }
+  50%{
+    transform: scale(0.2, 0.2);
+  }
+  100%{
+    transform: scale(1, 1);
+  }
+}

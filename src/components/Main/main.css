@@ -1,0 +1,96 @@
+.main{
+    display: flex;
+    position: relative;
+}
+
+.home_user{
+    width: 100%;
+    display: flex;
+}
+
+.home_user_right{
+    width: 85%;
+    margin-left: 15%;
+    background-color: #0d1117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    height: 100vh;
+}
+
+.home_user_right_header{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 2.5%;
+    right: 2.2%;
+}
+
+.home_user_right_header span{
+    margin-right: 2rem;
+    font-size: 28px;
+    margin-top: 0.2rem;
+    cursor: pointer;
+    color: #fff !important;
+}
+
+.home_user_right_header img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.home_user_right h1{
+    font-size: 100px;
+    margin: 0;
+}
+
+.home_user_right span{
+    color: #1e90ff;
+}
+
+.home_user_right p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-top: -10px;
+}
+
+.home_withoutuser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0d1117;
+    height: 100vh;
+    color: #fff;
+}
+
+.home_withoutuser h1{
+    font-size: 100px;
+}
+
+.home_withoutuser p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home_withoutuser span{
+    color: #1e90ff;
+}
+
+.home_user button, .home_withoutuser button{
+    background-color: #fff;
+    color: #1e90ff;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
