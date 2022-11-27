@@ -75,6 +75,14 @@
   width: 70%;
 }
 
+.ce-block--selected .ce-block__content{
+  background-color: #1e90ff !important;
+}
+
+::selection{
+  background-color: #1e90ff !important;
+}
+
 /* @tailwind utilities;
 
 h1 {
