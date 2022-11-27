@@ -104,7 +104,7 @@ const Folder = ({ id, folderName }) => {
                     {
                         folderPages.map((page, i) => (
                             <div className={page.id === pageid ? "navbar_files_file_active" : "navbar_files_file_notactive"}>
-                                <span style={{ color: `${fileIconColors[i % fileIconColors.length]}` }}><TbFiles /></span>
+                                <span style={{ color: `${fileIconColors[i % fileIconColors.length]}`, marginRight: '0.3rem', marginTop: '0.2rem' }}><TbFiles /></span>
                                 <Link to={`/folder/${id}/${page.id}`}>{page.data().fileName}</Link>
                             </div>
                         ))
