@@ -147,7 +147,7 @@ const Navbar = () => {
           {
             createdFiles.map((file, i) => (
               <div className={file.doc_id === id ?"navbar_files_file_active" : "navbar_files_file_notactive"}>
-                  <span><TbFiles/></span>
+                  <span style = {{marginRight: '0.3rem', marginTop: '0.2rem'}}><TbFiles/></span>
                   <Link to={`/page/${file.doc_id}`}>{file.fileName}</Link>
               </div>
             ))
